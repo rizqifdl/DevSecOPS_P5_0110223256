@@ -45,3 +45,8 @@ Workflow berada di `.github/workflows/devsecops.yml` dan berjalan ketika ada `pu
 2. **sast-scan**: berjalan setelah job `build` berhasil melalui `needs: build`. Job ini menjalankan Bandit untuk memindai pola kode Python yang berpotensi tidak aman.
 
 Jika unit test gagal, job SAST tidak akan berjalan karena bergantung pada job `build`. Hasil tiap job dapat dilihat pada tab **Actions** di GitHub.
+
+## Pengembangan
+
+Proyek ini dibuat sebagai implementasi tugas DevSecOps
+dengan GitHub Actions, unit testing, dan SAST menggunakan Bandit.
